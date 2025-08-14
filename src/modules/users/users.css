@@ -1,0 +1,138 @@
+/* users.css */
+
+/* --- TABLA --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+
+table, th, td {
+    border: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #eaf7ea;
+    transition: background-color 0.3s;
+}
+
+/* --- FORMULARIO --- */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+form input, form select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 4px rgba(76,175,80,0.4);
+}
+
+/* --- BOTONES --- */
+form button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Contenedor de acciones */
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Botón base */
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Espacio entre icono y texto */
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+/* Editar */
+.btn-edit {
+    background-color: #1976d2;
+}
+.btn-edit:hover {
+    background-color: #1565c0;
+}
+
+/* Eliminar */
+.btn-delete {
+    background-color: #e53935;
+}
+.btn-delete:hover {
+    background-color: #c62828;
+}
+
+/* Select (rol) */
+.select-role {
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+.select-role:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 4px rgba(76,175,80,0.4);
+}
+
+/* Botón asignar */
+.btn-assign {
+    background-color: #4CAF50;
+}
+.btn-assign:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,19 @@
+.product-card {
+  @apply bg-white p-4 rounded-xl shadow hover:shadow-lg border border-bakery-accent transition-shadow;
+}
+
+.product-title {
+  @apply text-lg font-semibold text-bakery-text mb-1;
+}
+
+.product-category {
+  @apply inline-block bg-bakery-categoryBg text-bakery-categoryText text-xs px-2 py-1 rounded;
+}
+
+.product-button-edit {
+  @apply bg-bakery-primary hover:bg-bakery-primaryDark text-white px-3 py-1 text-sm rounded-md;
+}
+
+.product-button-delete {
+  @apply bg-red-500 hover:bg-red-600 text-white px-3 py-1 text-sm rounded-md;
+}
