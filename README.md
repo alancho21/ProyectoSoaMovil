@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-# React + Vite
+# 📱 Prototipo Móvil POS - Panadería Potros (React Native)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente inicial para la versión móvil del Punto de Venta de "Panadería Potros", desarrollado utilizando el framework de **React Native**.
 
-Currently, two official plugins are available:
+### ⚠️ Estado Actual: Archivado (WIP)
+El proyecto actualmente **no es funcional en emuladores ni dispositivos físicos**. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Durante la etapa de integración y compilación nativa hacia **Android Studio**, el entorno presentó conflictos irreparables de dependencias y configuraciones de Gradle que impidieron la correcta generación del archivo APK/AAB.
 
-## Expanding the ESLint configuration
+A pesar de no lograr el despliegue final, el código fuente se mantiene público como demostración de la lógica de componentes, el manejo de estados (`useState`, `useEffect`) y la estructura de navegación en un entorno móvil con React Native.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Nueva rama principal
-Este es un archivo README temporal para activar esta rama.
->>>>>>> 709ad20913eb3dc2d26a8c31a9010d758d93794e
+👉 **[Ver el Sistema Web 100% Funcional (React.js)](https://github.com/alancho21/panaderia-web)** *(Nota: Ajusta este link al nombre de tu repo principal).*
