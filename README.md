@@ -9,4 +9,4 @@ Durante la etapa de integración y compilación nativa hacia **Android Studio**,
 
 A pesar de no lograr el despliegue final, el código fuente se mantiene público como demostración de la lógica de componentes, el manejo de estados (`useState`, `useEffect`) y la estructura de navegación en un entorno móvil con React Native.
 
-👉 **[Ver el Sistema Web 100% Funcional (React.js)](https://github.com/alancho21/panaderia-web)** *(Nota: Ajusta este link al nombre de tu repo principal).*
+👉 **[Ver el Sistema Web 100% Funcional (React.js)]((https://github.com/alancho21/proyectosoa))** 
